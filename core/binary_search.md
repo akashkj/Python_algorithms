@@ -35,4 +35,4 @@ def search(search_space, query, low, high):
 ```
 
 #### Complexity
-* In worst case, complexity of binary search is O(log N) where N is the initial search space.
+* In worst case, complexity of binary search is **O(log N)** where N is the initial search space.
