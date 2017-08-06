@@ -33,3 +33,6 @@ def search(search_space, query, low, high):
    else:
       return search(search_space, query, low, mid - 1)
 ```
+
+#### Complexity
+* In worst case, complexity of binary search is O(log N) where N is the initial search space.
