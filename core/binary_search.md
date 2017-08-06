@@ -9,13 +9,27 @@ def search(search_space, query):
    if not search_sequence:
       return None
    high, low = len(search_space) - 1, 0 
-   while high < low:
+   while low <= high:
       mid = (high + low) / 2
       mid_element = search_space[mid]
       if mid_element == query:
          return mid
-      if mid_element > query:
+      if mid_element < query:
          low = mid + 1
       else:
          high = mid - 1
+```
+
+#### Recursive binary search
+```python
+def search(search_space, query, low, high):
+   if low > high:
+      return None
+   mid = (low + high) / 2
+   if search_space[mid] == query:
+      return mid
+   if search_space[mid] < query:
+      return search(search_space, query, mid + 1, high)
+   else:
+      return search(search_space, query, low, mid - 1)
 ```
