@@ -32,8 +32,8 @@
 * For a balanced BST, height of tree is ~ log N (which helps in giving better worst case performance than BST)
 * Balanced BST performs better than a BST in worst case senario
 * _Searching_
-   |            | Best case | Average case | Worst case |
-   |------------|-----------|--------------|------------|
-   |Linked list | O(1)      | O(n)         | O(n)       |
-   |BST         | O(1)      | O(log n)     | O(n)       |
-   |Linked list | O(1)      | O(log n)     | O(log n)   |
+   * |            | Best case | Average case | Worst case |
+     |------------|-----------|--------------|------------|
+     |Linked list | O(1)      | O(n)         | O(n)       |
+     |BST         | O(1)      | O(log n)     | O(n)       |
+     |Linked list | O(1)      | O(log n)     | O(log n)   |
