@@ -27,9 +27,15 @@
 ### Performance
 * With same data, different structures of a BST can be formed, depending on the order of insertion
 * To make worst case less expensive, it is crucial to make BST height balanced
-* __Height__ of a binary tree is maximum distance from root to a laef node
+* __Height__ of a binary tree is maximum distance from root to a leaf node
 * A _balanced BST_ is a binary search tree where each subtree tree has a maximum absolute height difference of 1 between left and right subtrees.
-* For a balanced BST, height of tree is ~ log N
+* For a balanced BST, height of tree is ~ log N (which helps in giving better worst case performance than BST)
 * Balanced BST performs better than a BST in worst case senario
-*  |     |Best case|Average case|Worst case|
-   |-----|---------|------------|----------|
+*  |            | Best case | Average case | Worst case |
+   |------------|-----------|--------------|------------|
+   |Linked list | O(1)      | O(n)         | O(n)       |
+   |------------|-----------|--------------|------------|
+   |BST         | O(1)      | O(n)         | O(n)       |
+   |------------|-----------|--------------|------------|
+   |Linked list | O(1)      | O(n)         | O(n)       |
+   |----------------------------------------------------|
