@@ -36,4 +36,4 @@
      |------------|-----------|--------------|------------|
      |Linked list | O(1)      | O(n)         | O(n)       |
      |BST         | O(1)      | O(log n)     | O(n)       |
-     |Linked list | O(1)      | O(log n)     | O(log n)   |
+     |Balanced BST| O(1)      | O(log n)     | O(log n)   |
