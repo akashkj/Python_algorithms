@@ -20,4 +20,6 @@
 * To delete a leaf node, simply remove its reference from its parent
 * To delete a node with sigle child, assign its child as child to parent of that node
 * To delete a node with two children:
-   * Find smallest value in right subtree
+   * Find smallest value in right subtree(its left child will be empty)
+   * Assign smallest value to the node to be deleted
+   * Delete smallest node found earlier(as there will be two nodes now with same value). Initial smallest value node have 0 or 1 child which is same case as either first or second
