@@ -11,3 +11,12 @@ It comprises of
 ### Terminology
 * __Height__
 * __Depth__
+
+### Breadth First Search(BFS)
+
+### Depth First Search(DFS)
+
+#### Traversal
+* Inorder - left, self, right
+* Preorder - self, left, right
+* Postorder - left, right, self
