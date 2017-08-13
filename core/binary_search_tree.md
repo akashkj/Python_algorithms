@@ -23,3 +23,13 @@
    * Find smallest value in right subtree(its left child will be empty)
    * Assign smallest value to the node to be deleted
    * Delete smallest node found earlier(as there will be two nodes now with same value). Initial smallest value node have 0 or 1 child which is same case as either first or second
+   
+### Performance
+* With same data, different structures of a BST can be formed, depending on the order of insertion
+* To make worst case less expensive, it is crucial to make BST height balanced
+* __Height__ of a binary tree is maximum distance from root to a laef node
+* A _balanced BST_ is a binary search tree where each subtree tree has a maximum absolute height difference of 1 between left and right subtrees.
+* For a balanced BST, height of tree is ~ log N
+* Balanced BST performs better than a BST in worst case senario
+*  |     |Best case|Average case|Worst case|
+   |-----|---------|------------|----------|
