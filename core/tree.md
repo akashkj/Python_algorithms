@@ -13,6 +13,11 @@ It comprises of
 * __Depth__
 
 ### Breadth First Search(BFS)
+   #### Applications
+   * Web crawling(e.g. finding current page(node)'s links)
+   * Social networking(e.g. finding friends of a person)
+   * Network broadcast(e.g. sending message to all direct receivers of a sender)
+   * Garbage collection
 
 ### Depth First Search(DFS)
 
